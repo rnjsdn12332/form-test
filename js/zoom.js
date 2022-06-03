@@ -35,7 +35,7 @@ function text_origin(){
     textbox.style.fontSize="15px";
 }
 
-let font=1.2
+let font=1.0
 let line_height=3
 
 function text_up(){
