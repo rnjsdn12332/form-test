@@ -14,8 +14,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
 <body>
-    <input id="sound-check" type="checkbox" name="playaudio" value="소리 듣기" class="on-focus"><b class="on-focus">소리 듣기</b>
-    <div class="container-fluid">
+    <div class="check_sound">소리를 들으시려면 화면을 클릭해주세요.</div>
+    <script>
+        document.querySelector(".check_sound").addEventListener("click",function(){
+            document.querySelector(".check_sound").style.display='none';
+            })
+    </script>
+    <div class="container-fluid" style="margin-top:3em">
         <div class="mem">
             <h4 class="fw-bold text-center mt-3"></h4>
             <form method="GET" id="survey-form" action="">
@@ -48,7 +53,7 @@
             <div class="second" style="display : none">
                 <div class="button-prev before_bt on-focus">
                  이전페이지</div>
-                <div class="second_inner" class="m-top px-4" style="margin-top: 0.2em;">
+                <div class="second_inner" class="change2" class="m-top px-4" style="margin-top: 0.2em;">
                 <div  class="q2 on-focus" class="fw-bold on-focus">학생은 진로, 직업에 관한 상담(이야기)을 누구와 나누나요? 주로 이야기를 나누는 사람을 3명까지 선택해 주세요.</div>
                 <div class="form-check on-focus">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
