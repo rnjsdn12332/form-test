@@ -6,6 +6,7 @@ let Audio_p=function(audio){
 
 		console.log(this.audio1);
     	this.audio1.loop = false;
+    	this.audio1.playbackRate=2;
     	this.audio1.play();
 
 	};
@@ -21,6 +22,7 @@ let Audio_p=function(audio){
 let q1=new Audio_p("https://docs.google.com/uc?export=open&id=1bwNC6pgDd5nq-wbogloruKJcrMfpAUiz");
 document.querySelector(".q1").addEventListener("mouseover",function(){q1.play_sound();});
 document.querySelector(".q1").addEventListener("mouseout",function(){q1.stop_sound();});  
+
 
 let q1_ex1=new Audio_p("https://docs.google.com/uc?export=open&id=1CkEYUMYrbNHkVM8c68WWEan8sSlIhGOY");
 document.querySelector(".q1_ex1").addEventListener("mouseover",function(){q1_ex1.play_sound();});

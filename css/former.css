@@ -235,7 +235,12 @@ textarea {
   color: #85FFC7;
 }
 
+span {
 
+    display: block;
+    botton : 1em;
+    
+}
 
 #sound-check{
     color : white;
