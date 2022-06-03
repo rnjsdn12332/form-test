@@ -39,7 +39,7 @@ let font=1.0
 let line_height=3
 
 function text_up(){
-    if (font==2.5) font=2.5;
+    if (font==5) font=5;
     else font += 0.05;
     
     document.querySelector(".change").style.fontSize=font+'em';

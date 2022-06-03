@@ -82,10 +82,10 @@ textarea {
 
 #up{
     position : absolute;
-    bottom : 2em;
+    top : 0.5em;
     right :2em;
-    height: 5rem;
-    width: 5rem;
+    height: 2rem;
+    width: 2rem;
     background: #85FFC7;
     color : #333;
     border-radius: 0.12em;
@@ -93,10 +93,10 @@ textarea {
 }
 #down{
     position : absolute;
-    bottom : 2em;
+    top : 0.5em;
     right :5em;
-    height: 5rem;
-    width: 5rem;
+    height: 2rem;
+    width: 2rem;
     background: #85FFC7;
     color : #333;
     border-radius: 0.12em;
