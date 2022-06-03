@@ -7,7 +7,7 @@ function zoom() {
     text = event.target.textContent;
     posY = event.clientY;
 
-    zoom_text = document.createElement("span");
+    zoom_text = document.querySelector("zoomtext");
     zoom_text.textContent = text;
     zoom_text.style.top=posY;
     zoom_text.style.fontSize="60px";
