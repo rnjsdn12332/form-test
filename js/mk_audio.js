@@ -6,7 +6,7 @@ let Audio_p=function(audio){
 
 		console.log(this.audio1);
     	this.audio1.loop = false;
-    	this.audio1.playbackRate=2;
+    	this.audio1.playbackRate=1.2;
     	this.audio1.play();
 
 	};
